@@ -1,0 +1,20 @@
+1 - Alunos não entendem claramente os pré-requisitos das disciplinas
+2 - Alunos têm dificuldade em visualizar/gravar todas as opções de turmas/horários disponíveis
+3 - Estudantes não conseguem otimizar a grade (ex: evitar horas vagas entre disciplinas)
+4 - Estudantes não sabem quais disciplinas priorizar para se formar mais rápido
+5 - Alunos dependem de informações decentralizadas para montar a grade
+6 - Mudanças de última hora na disponibilidade de disciplinas geram confusão
+7 - Alunos gostariam de sugestões automáticas de grade ideal
+8 - Alunos gostariam de simular diferentes grades antes de escolher
+9 - Estudantes valorizariam recomendações baseadas no mercado de trabalho
+10 - Estudantes não entendem como funciona o domínio adicional e quais disciplinas estão atreladas a ele.
+11 - Alunos têm dificuldades de visualizar disciplinas que podem adiantar uma pós graduação
+12 - Alunos têm dificuldade em identificar quais disciplinas possuem maior taxa de reprovação para antecipar possíveis sobrecargas
+13 - Alunos não sabem quais professores estão associados a cada turma no momento da escolha
+14 - Estudantes não têm clareza sobre a sequência ideal de disciplinas ao longo dos períodos de acordo com sua necessidade específica
+15 - Alunos gostariam de integrar a grade com calendário pessoal (ex: Google Calendar) para melhor planejamento
+16 - Alunos têm dificuldade em identificar disciplinas equivalentes ou que podem substituir outras no momento da matrícula
+17 - Alunos sentem falta de alertas sobre prazos importantes (matrícula, ajuste, trancamento)
+18 - Alunos não têm clareza sobre quais disciplinas exigem presença obrigatória vs. flexível
+19 - Estudantes não conseguem priorizar automaticamente alternativas viáveis quando uma disciplina desejada fica indisponível
+20 - Alunos têm dificuldade em identificar quais disciplinas podem ser cursadas em outros cursos/departamentos e aproveitadas na própria grade
