@@ -1,0 +1,148 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+
+body {
+    background-color: #ffffff;
+    color: #1e293b;
+    padding-bottom: 80px; 
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.logo-area {
+    display: flex;
+    align-items: flex-start; 
+    gap: 8px; 
+}
+
+.logo-img {
+    height: 55px;   
+    width: auto;
+    margin-right: 4px;
+    margin-top: 0;  
+    vertical-align: top;
+}
+.logo-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #020918;
+    margin-top: 0; 
+    padding-top: 15px;
+}
+.logout-link {
+    text-decoration: none;
+    color: #64748b;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* alinhamento do conteudo do meio */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header-title h1 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.header-title p {
+    color: #64748b;
+    margin-bottom: 30px;
+}
+
+/* Estilização dos Cards */
+.cards-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card-item {
+    background: #e6e3e3;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* Sombra leve para dar profundidade */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* Efeito ao passar o mouse no card */
+.card-item:hover {
+    background-color: #d2f8c4;
+}
+
+/* Círculos dos ícones (emojis) */
+.icon-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+/* Cores específicas para cada tema de ícone */
+.blue-theme { background-color: #eff6ff; }
+.green-theme { background-color: #f0fdf4; }
+
+.card-info h3 {
+    font-size: 1rem;
+    margin-bottom: 3px;
+}
+
+.card-info p {
+    font-size: 0.85rem;
+    color: #64748b;
+}
+
+/* Menu de navegação inferior */
+.bottom-menu {
+    padding-left: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    border-top: 1px solid #e2e8f0;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #94a3b8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.nav-icon {
+    font-size: 1.2rem;
+    margin-bottom: 2px;
+}
+
+/* Estilo para a aba que estiver selecionada */
+.nav-link.active {
+    color: #2563eb;
+}
