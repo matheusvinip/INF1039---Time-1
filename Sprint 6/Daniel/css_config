@@ -10,7 +10,6 @@ body{
   color:#111827;
 }
 
-
 .topbar{
   height:72px;
   background:white;
@@ -52,7 +51,6 @@ body{
 .logout:hover{
   color:#374151;
 }
-
 
 .container{
   max-width:920px;
