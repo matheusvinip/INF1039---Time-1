@@ -7,7 +7,6 @@
 
   <link rel="stylesheet" href="config.css">
 
-  <!-- Font Awesome -->
   <link rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -37,7 +36,6 @@
 
   <div class="card">
 
-    <!-- CONTA -->
     <h3>CONTA</h3>
 
     <div class="item">
@@ -80,7 +78,6 @@
 
     <hr>
 
-    <!-- GERAL -->
     <h3>GERAL</h3>
 
     <div class="item">
@@ -142,7 +139,6 @@
 
     <hr>
 
-    <!-- SOBRE -->
     <h3>SOBRE</h3>
 
     <div class="item">
