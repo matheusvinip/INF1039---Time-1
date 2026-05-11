@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roteiro de Estudo</title>
+
+  <link rel="stylesheet" href="roteiro.css">
+
+  <!-- Ícones -->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<header class="topbar">
+
+  <div class="logo">
+    <img src="logo.png" alt="Logo">
+    <span>GradeSync</span>
+  </div>
+
+  <a href="#" class="logout">
+    <i class="fa-solid fa-right-from-bracket"></i>
+    Sair
+  </a>
+
+</header>
+
+<main class="container">
+
+  <div class="title-area">
+    <h1>Roteiro de Estudo</h1>
+    <p>Visualize e gerencie seu roteiro semanal</p>
+  </div>
+
+  <div class="schedule">
+
+    <div class="header">
+      <div>Hora</div>
+      <div>Seg</div>
+      <div>Ter</div>
+      <div>Qua</div>
+      <div>Qui</div>
+      <div>Sex</div>
+      <div>Sáb</div>
+    </div>
+
+    <!-- 08 -->
+    <div class="row">
+      <div class="time">08:00</div>
+
+      <div class="cell">
+        <div class="pill blue">Cálculo: Limites</div>
+      </div>
+
+      <div class="cell"></div>
+
+      <div class="cell">
+        <div class="pill green">Álgebra: Vetores</div>
+      </div>
+
+      <div class="cell">
+        <div class="pill purple">C: Intro e Variáveis</div>
+      </div>
+
+      <div class="cell"></div>
+      <div class="cell"></div>
+    </div>
+
+    <!-- 09 -->
+    <div class="row">
+      <div class="time">09:00</div>
+
+      <div class="cell">
+        <div class="pill blue">Cálculo: Limites</div>
+      </div>
+
+      <div class="cell"></div>
+
+      <div class="cell">
+        <div class="pill green">Álgebra: Vetores</div>
+      </div>
+
+      <div class="cell">
+        <div class="pill purple">C: Condicionais</div>
+      </div>
+
+      <div class="cell"></div>
+
+      <div class="cell">
+        <div class="pill red">Revisão Geral</div>
+      </div>
+    </div>
+
+    <!-- 10 -->
+    <div class="row">
+      <div class="time">10:00</div>
+
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+    </div>
+
+    <!-- 11 -->
+    <div class="row">
+      <div class="time">11:00</div>
+
+      <div class="cell">
+        <div class="pill blue">Cálculo: Exercícios</div>
+      </div>
+
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+    </div>
+
+    <!-- 12 -->
+    <div class="row">
+      <div class="time">12:00</div>
+
+      <div class="cell"></div>
+      <div class="cell"></div>
+
+      <div class="cell">
+        <div class="pill green">Álgebra: Matrizes</div>
+      </div>
+
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+    </div>
+
+    <!-- 13 -->
+    <div class="row">
+      <div class="time">13:00</div>
+
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+
+      <div class="cell">
+        <div class="pill purple">C: Prática Lab</div>
+      </div>
+
+      <div class="cell">
+        <div class="pill red">Italiano: exercícios</div>
+      </div>
+
+      <div class="cell"></div>
+    </div>
+
+    <!-- 14 -->
+    <div class="row">
+      <div class="time">14:00</div>
+
+      <div class="cell">
+        <div class="pill blue">Cálculo: Revisão</div>
+      </div>
+
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+    </div>
+
+    <!-- 15 -->
+    <div class="row">
+      <div class="time">15:00</div>
+
+      <div class="cell"></div>
+      <div class="cell"></div>
+
+      <div class="cell">
+        <div class="pill green">Álgebra: Exercícios</div>
+      </div>
+
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+    </div>
+
+  </div>
+
+  <div class="buttons">
+
+    <button class="primary">
+      <i class="fa-solid fa-wand-magic-sparkles"></i>
+      Criar Roteiro de Estudo
+    </button>
+
+    <button class="secondary">
+      <i class="fa-solid fa-pen"></i>
+      Editar Roteiro
+    </button>
+
+  </div>
+
+</main>
+
+<nav class="bottom-nav">
+
+  <a href="#">
+    <i class="fa-regular fa-calendar"></i>
+    Grade
+  </a>
+
+  <a href="#" class="active">
+    <i class="fa-regular fa-book-open"></i>
+    Roteiro
+  </a>
+
+  <a href="#">
+    <i class="fa-regular fa-circle-question"></i>
+    Ajuda
+  </a>
+
+  <a href="#">
+    <i class="fa-solid fa-gear"></i>
+    Config
+  </a>
+
+</nav>
+
+</body>
+</html>
