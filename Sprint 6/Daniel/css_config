@@ -68,8 +68,6 @@ body{
   color:#6b7280;
 }
 
-/* CARD */
-
 .card{
   margin-top:30px;
 
