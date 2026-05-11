@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Configurações</title>
+
+  <link rel="stylesheet" href="config.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<header class="topbar">
+
+  <div class="logo">
+    <img src="logo.png" alt="Logo">
+    <span>GradeSync</span>
+  </div>
+
+  <a href="#" class="logout">
+    <i class="fa-solid fa-right-from-bracket"></i>
+    Sair
+  </a>
+
+</header>
+
+<main class="container">
+
+  <div class="title-area">
+    <h1>Configurações</h1>
+    <p>Personalize sua experiência</p>
+  </div>
+
+  <div class="card">
+
+    <!-- CONTA -->
+    <h3>CONTA</h3>
+
+    <div class="item">
+
+      <div class="left">
+
+        <div class="icon-box">
+          <i class="fa-solid fa-shield"></i>
+        </div>
+
+        <div>
+          <strong>Privacidade</strong>
+          <p>Gerencie seus dados e permissões</p>
+        </div>
+
+      </div>
+
+      <span class="arrow">›</span>
+
+    </div>
+
+    <div class="item">
+
+      <div class="left">
+
+        <div class="icon-box">
+          <i class="fa-regular fa-bell"></i>
+        </div>
+
+        <div>
+          <strong>Notificações</strong>
+          <p>Alertas e lembretes</p>
+        </div>
+
+      </div>
+
+      <span class="arrow">›</span>
+
+    </div>
+
+    <hr>
+
+    <!-- GERAL -->
+    <h3>GERAL</h3>
+
+    <div class="item">
+
+      <div class="left">
+
+        <div class="icon-box">
+          <i class="fa-solid fa-universal-access"></i>
+        </div>
+
+        <div>
+          <strong>Acessibilidade</strong>
+          <p>Tamanho de texto e contraste</p>
+        </div>
+
+      </div>
+
+      <span class="arrow">›</span>
+
+    </div>
+
+    <div class="item">
+
+      <div class="left">
+
+        <div class="icon-box">
+          <i class="fa-solid fa-globe"></i>
+        </div>
+
+        <div>
+          <strong>Idioma</strong>
+          <p>Português (Brasil)</p>
+        </div>
+
+      </div>
+
+      <span class="arrow">›</span>
+
+    </div>
+
+    <div class="item">
+
+      <div class="left">
+
+        <div class="icon-box">
+          <i class="fa-solid fa-mobile-screen"></i>
+        </div>
+
+        <div>
+          <strong>Dispositivos</strong>
+          <p>Gerencie sessões ativas</p>
+        </div>
+
+      </div>
+
+      <span class="arrow">›</span>
+
+    </div>
+
+    <hr>
+
+    <!-- SOBRE -->
+    <h3>SOBRE</h3>
+
+    <div class="item">
+
+      <div class="left">
+
+        <div class="icon-box">
+          <i class="fa-solid fa-circle-info"></i>
+        </div>
+
+        <div>
+          <strong>Sobre o GradeSync</strong>
+          <p>Versão 1.0.0</p>
+        </div>
+
+      </div>
+
+      <span class="arrow">›</span>
+
+    </div>
+
+    <div class="item">
+
+      <div class="left">
+
+        <div class="icon-box">
+          <i class="fa-regular fa-file-lines"></i>
+        </div>
+
+        <div>
+          <strong>Termos de Uso</strong>
+          <p>Política de privacidade</p>
+        </div>
+
+      </div>
+
+      <span class="arrow">›</span>
+
+    </div>
+
+  </div>
+
+</main>
+
+<nav class="bottom-nav">
+
+  <a href="#">
+    <i class="fa-regular fa-calendar"></i>
+    Grade
+  </a>
+
+  <a href="#">
+    <i class="fa-regular fa-book-open"></i>
+    Roteiro
+  </a>
+
+  <a href="#">
+    <i class="fa-regular fa-circle-question"></i>
+    Ajuda
+  </a>
+
+  <a href="#" class="active">
+    <i class="fa-solid fa-gear"></i>
+    Config
+  </a>
+
+</nav>
+
+</body>
+</html>
