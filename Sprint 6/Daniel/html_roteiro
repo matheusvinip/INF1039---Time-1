@@ -7,7 +7,6 @@
 
   <link rel="stylesheet" href="roteiro.css">
 
-  <!-- Ícones -->
   <link rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -47,7 +46,6 @@
       <div>Sáb</div>
     </div>
 
-    <!-- 08 -->
     <div class="row">
       <div class="time">08:00</div>
 
@@ -69,7 +67,6 @@
       <div class="cell"></div>
     </div>
 
-    <!-- 09 -->
     <div class="row">
       <div class="time">09:00</div>
 
@@ -94,7 +91,6 @@
       </div>
     </div>
 
-    <!-- 10 -->
     <div class="row">
       <div class="time">10:00</div>
 
@@ -106,7 +102,6 @@
       <div class="cell"></div>
     </div>
 
-    <!-- 11 -->
     <div class="row">
       <div class="time">11:00</div>
 
@@ -121,7 +116,6 @@
       <div class="cell"></div>
     </div>
 
-    <!-- 12 -->
     <div class="row">
       <div class="time">12:00</div>
 
@@ -137,7 +131,6 @@
       <div class="cell"></div>
     </div>
 
-    <!-- 13 -->
     <div class="row">
       <div class="time">13:00</div>
 
@@ -156,7 +149,6 @@
       <div class="cell"></div>
     </div>
 
-    <!-- 14 -->
     <div class="row">
       <div class="time">14:00</div>
 
@@ -171,7 +163,6 @@
       <div class="cell"></div>
     </div>
 
-    <!-- 15 -->
     <div class="row">
       <div class="time">15:00</div>
 
