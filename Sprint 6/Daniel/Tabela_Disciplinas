@@ -1,0 +1,84 @@
+<style>
+	.tabela {
+		border:1px solid #C0C0C0;
+		border-collapse:collapse;
+		padding:5px;
+	}
+	.tabela th {
+		border:1px solid #C0C0C0;
+		padding:5px;
+		background:#F0F0F0;
+	}
+	.tabela td {
+		border:1px solid #C0C0C0;
+		padding:5px;
+	}
+</style>
+<table class="tabela">
+                        
+                            	<caption>Disciplinas</caption>
+                        
+                            	<thead>
+                            
+                                	<tr>
+                                  
+                                    		<th>Nome</th>
+                                    		<th>Código</th>
+                                    		<th>Créditos</th>
+                                    		<th>Departamento</th>
+                                
+                                		<th>Dificuldade</th>
+		<th>Pré-requisitos</th>
+		<th>Co-requisitos</th>
+		<th>Curso</th>
+		<th>Tipo</th>
+	</tr>
+                            
+                            	</thead>
+                        
+                            	<tbody>
+                           
+                                	<tr>
+                                
+                                    		<td>&nbsp;Algebra Linear I</td>
+                                    		<td>&nbsp;MAT4200</td>
+                                    		<td>&nbsp;4</td>
+                                    		<td>&nbsp;Matemática</td>
+                                
+                                		<td>&nbsp;Média</td>
+		<td>&nbsp;Nivelamento de matemática I</td>
+		<td>&nbsp;Nenhum</td>
+		<td>&nbsp;CC,MAT</td>
+		<td>&nbsp;Obrigatória</td>
+	</tr>
+                                	<tr>
+                                
+                                    		<td>&nbsp;</td>
+                                    		<td>&nbsp;</td>
+                                    		<td>&nbsp;</td>
+                                    		<td>&nbsp;</td>
+                                
+                                		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+                                
+                                	<tr>
+                                
+                                    		<td>&nbsp;</td>
+                                    		<td>&nbsp;</td>
+                                    		<td>&nbsp;</td>
+                                    		<td>&nbsp;</td>
+                                
+                                		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+                                
+                                
+                            	</tbody>
+                        </table>
