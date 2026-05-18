@@ -1,0 +1,323 @@
+body {
+
+    margin: 0;
+
+    padding: 0;
+
+    background-color: #1f1f23;
+
+    font-family: Arial;
+
+    color: white;
+
+}
+
+/* topo */
+
+.topo {
+
+    width: 100%;
+
+    height: 80px;
+
+    background-color: #111111;
+
+    border-bottom: 1px solid #333333;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+/* logo */
+
+.logo-area {
+
+    margin-left: 300px;
+
+}
+
+.logo-area h2 {
+
+    font-size: 22px;
+
+}
+
+/* sair */
+
+.sair {
+
+    margin-right: 300px;
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+.sair i {
+
+    color: #9ca3af;
+
+    margin-right: 10px;
+
+}
+
+.sair a {
+
+    text-decoration: none;
+
+    color: #9ca3af;
+
+    font-size: 18px;
+
+}
+
+.sair a:hover {
+
+    color: white;
+
+}
+
+/* conteudo */
+
+.conteudo {
+
+    width: 62%;
+
+    margin: auto;
+
+    margin-top: 40px;
+
+}
+
+/* titulo */
+
+.titulo {
+
+    display: flex;
+
+    align-items: center;
+
+    margin-bottom: 25px;
+
+}
+
+.titulo i {
+
+    font-size: 25px;
+
+    margin-right: 20px;
+
+    cursor: pointer;
+
+}
+
+.titulo h1 {
+
+    font-size: 48px;
+
+}
+
+/* cartao */
+
+.card-notificacao {
+
+    width: 100%;
+
+    background-color: #0d0d0d;
+
+    border-radius: 22px;
+
+    padding: 20px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+.card-notificacao:hover {
+
+    background-color: #111111;
+
+}
+
+/* texto */
+
+.texto-card h3 {
+
+    margin: 0;
+
+    font-size: 30px;
+
+}
+
+.texto-card p {
+
+    margin-top: 10px;
+
+    color: #94a3b8;
+
+    font-size: 20px;
+
+}
+
+/* interruptor */
+
+.interruptor {
+
+    position: relative;
+
+    display: inline-block;
+
+    width: 55px;
+
+    height: 30px;
+
+}
+
+/* esconde */
+
+.interruptor input {
+
+    opacity: 0;
+
+    width: 0;
+
+    height: 0;
+
+}
+
+/* fundo */
+
+.slider {
+
+    position: absolute;
+
+    cursor: pointer;
+
+    top: 0;
+
+    left: 0;
+
+    right: 0;
+
+    bottom: 0;
+
+    background-color: #2f2f35;
+
+    transition: 0.4s;
+
+    border-radius: 34px;
+
+}
+
+/* bola interruptor */
+
+.slider:before {
+
+    position: absolute;
+
+    content: "";
+
+    height: 22px;
+
+    width: 22px;
+
+    left: 4px;
+
+    bottom: 4px;
+
+    background-color: #6b7280;
+
+    transition: 0.4s;
+
+    border-radius: 50%;
+
+}
+
+/* quando ativo */
+
+input:checked + .slider {
+
+    background-color: #2563eb;
+
+}
+
+input:checked + .slider:before {
+
+    transform: translateX(24px);
+
+    background-color: white;
+
+}
+
+/* aba inferior */
+
+.aba-inferior {
+
+    width: 100%;
+
+    height: 90px;
+
+    background-color: #111111;
+
+    border-top: 1px solid #333333;
+
+    position: fixed;
+
+    bottom: 0;
+
+    display: flex;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+}
+
+/* item aba */
+
+.item-aba {
+
+    text-align: center;
+
+    color: #9ca3af;
+
+    cursor: pointer;
+
+}
+
+.item-aba i {
+
+    font-size: 24px;
+
+}
+
+.item-aba p {
+
+    margin-top: 8px;
+
+    font-size: 18px;
+
+}
+
+.item-aba:hover {
+
+    color: white;
+
+}
+
+/* aba ativa */
+
+.ativo {
+
+    color: #3b82f6;
+
+}
