@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dispositivos</title>
+
+    <link rel="stylesheet" href="dispositivos.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- menu -->
+
+    <div class="topo">
+
+        <div class="logo-area">
+
+            <img src="logo.png" class="logo">
+
+            <h2>GradeSync</h2>
+
+        </div>
+
+        <div class="sair">
+
+            <i class="fa-solid fa-right-from-bracket"></i>
+
+            <a href="#">Sair</a>
+
+        </div>
+
+    </div>
+
+    <!-- conteudo -->
+
+    <div class="conteudo">
+
+        <!-- titulo -->
+
+        <div class="titulo">
+
+            <i class="fa-solid fa-arrow-left"></i>
+
+            <h1>Dispositivos</h1>
+
+        </div>
+
+        <!-- dispositivos -->
+
+        <div class="card-dispositivo">
+
+            <!-- parte esquerda -->
+
+            <div class="lado-esquerdo">
+
+                <div class="icone">
+
+                    <i class="fa-solid fa-desktop"></i>
+
+                </div>
+
+                <div class="textos">
+
+                    <h3>Chrome • Windows</h3>
+
+                    <p>Este dispositivo</p>
+
+                </div>
+
+            </div>
+
+            <!-- parte direita -->
+
+            <div class="lado-direito">
+
+                <button>Desconectar</button>
+
+            </div>
+
+        </div>
+
+        <!-- nenhum dispositivo -->
+
+        <div class="texto-baixo">
+
+            <p>Nenhum outro dispositivo conectado.</p>
+
+        </div>
+
+    </div>
+
+    <!-- aba inferior -->
+
+    <div class="aba-inferior">
+
+        <div class="item-aba">
+            <i class="fa-regular fa-calendar"></i>
+            <p>Grade</p>
+        </div>
+
+        <div class="item-aba">
+            <i class="fa-solid fa-book-open"></i>
+            <p>Roteiro</p>
+        </div>
+
+        <div class="item-aba">
+            <i class="fa-regular fa-circle-question"></i>
+            <p>Ajuda</p>
+        </div>
+
+        <div class="item-aba ativo">
+            <i class="fa-solid fa-gear"></i>
+            <p>Config</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
