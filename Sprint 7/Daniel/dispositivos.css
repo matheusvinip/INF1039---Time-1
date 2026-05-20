@@ -3,11 +3,11 @@ body {
     margin: 0;
     padding: 0;
 
-    background-color: #1f1f23;
+    background-color: #f5f7fb;
 
     font-family: Arial;
 
-    color: white;
+    color: #111827;
 
 }
 
@@ -19,9 +19,9 @@ body {
 
     height: 80px;
 
-    background-color: #111111;
+    background-color: #ffffff;
 
-    border-bottom: 1px solid #333333;
+    border-bottom: 1px solid #e5e7eb;
 
     display: flex;
 
@@ -69,7 +69,7 @@ body {
 
 .sair i {
 
-    color: #9ca3af;
+    color: #6b7280;
 
     margin-right: 10px;
 
@@ -79,7 +79,7 @@ body {
 
     text-decoration: none;
 
-    color: #9ca3af;
+    color: #6b7280;
 
     font-size: 18px;
 
@@ -87,7 +87,7 @@ body {
 
 .sair a:hover {
 
-    color: white;
+    color: #111827;
 
 }
 
@@ -137,7 +137,9 @@ body {
 
     width: 100%;
 
-    background-color: #0d0d0d;
+    background-color: #ffffff;
+
+    border: 1px solid #e5e7eb;
 
     border-radius: 22px;
 
@@ -148,6 +150,8 @@ body {
     justify-content: space-between;
 
     align-items: center;
+
+    box-shadow: 0 2px 10px rgba(0,0,0,0.04);
 
 }
 
@@ -165,7 +169,7 @@ body {
 
     height: 60px;
 
-    background-color: #111827;
+    background-color: #eff6ff;
 
     border-radius: 15px;
 
@@ -181,7 +185,7 @@ body {
 
 .icone i {
 
-    color: #60a5fa;
+    color: #2563eb;
 
     font-size: 28px;
 
@@ -199,7 +203,7 @@ body {
 
     margin-top: 8px;
 
-    color: #9ca3af;
+    color: #6b7280;
 
     font-size: 20px;
 
@@ -209,11 +213,11 @@ body {
 
 .lado-direito button {
 
-    background-color: #1f1f23;
+    background-color: #ffffff;
 
-    color: white;
+    color: #111827;
 
-    border: 1px solid #444;
+    border: 1px solid #d1d5db;
 
     border-radius: 14px;
 
@@ -227,7 +231,7 @@ body {
 
 .lado-direito button:hover {
 
-    background-color: #2a2a2f;
+    background-color: #f3f4f6;
 
 }
 
@@ -243,7 +247,7 @@ body {
 
 .texto-baixo p {
 
-    color: #94a3b8;
+    color: #6b7280;
 
     font-size: 22px;
 
@@ -257,9 +261,9 @@ body {
 
     height: 90px;
 
-    background-color: #111111;
+    background-color: #ffffff;
 
-    border-top: 1px solid #333333;
+    border-top: 1px solid #e5e7eb;
 
     position: fixed;
 
@@ -277,7 +281,7 @@ body {
 
     text-align: center;
 
-    color: #9ca3af;
+    color: #6b7280;
 
     cursor: pointer;
 
@@ -299,12 +303,12 @@ body {
 
 .item-aba:hover {
 
-    color: white;
+    color: #111827;
 
 }
 
 .ativo {
 
-    color: #3b82f6;
+    color: #2563eb;
 
 }
