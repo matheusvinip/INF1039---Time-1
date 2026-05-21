@@ -1,7 +1,7 @@
 body{
     margin:0;
     padding:0;
-    background-color: rgb(213, 212, 211);
+    background-color: #d5d4d3;
     font-family: Arial;
 }
 /* topo */
@@ -24,8 +24,22 @@ body{
 .sair{
     margin-right:300px;
     display:flex;
+    align-items: center;
+}
+.sair i{
+    color:#d5d4d3;
+    margin-right: 15px;
+}
+.sair p{
+    color: #d5d4d3;
+    font-size: 20px;
 }
 /* conteudo*/
+.conteudo{
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+}
 /* titulo*/
 /* cards tamanho */
 /* botoes*/
