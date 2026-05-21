@@ -79,6 +79,14 @@ body{
     color: white;
 }
 /* cards opcoes*/
+.card_opcoes{
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /* interruptor */
 /* bola interruptor*/
 /* aba inferior */
