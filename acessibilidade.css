@@ -14,7 +14,17 @@ body{
     align-items: center;
 }
 /* logo */
+.area_da_logo{
+    margin-left: 80px;
+}
+.area_da_logo h2{
+    font-size: 20px;
+}
 /* sair */
+.sair{
+    margin-right:300px;
+    display:flex;
+}
 /* conteudo*/
 /* titulo*/
 /* cards tamanho */
