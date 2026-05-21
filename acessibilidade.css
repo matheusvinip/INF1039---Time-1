@@ -118,4 +118,19 @@ body{
     align-items: center;
 }
 /* item aba */
+.item_aba{
+    text-align: center;
+    color: #d5d4d3;
+
+}
+.item_aba i{
+    font-size: 25px;
+}
+.item_aba p{
+    margin-top: 10px;
+    font-size: 20px;
+}
 /* item aba ativo*/
+.ativo_aba{
+    color: blue;
+}
