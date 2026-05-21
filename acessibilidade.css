@@ -41,7 +41,19 @@ body{
     margin-top: 40px;
 }
 /* titulo*/
+.titulo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.titulo h1{
+    font-size: 50px;
+}
+.titulo i{
+
+}
 /* cards tamanho */
+
 /* botoes*/
 /* cards opcoes*/
 /* interruptor */
