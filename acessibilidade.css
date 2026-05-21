@@ -1,7 +1,7 @@
 body{
     margin:0;
     padding:0;
-    background-color: #d5d4d3;
+    background-color: #f4f4f4;
     font-family: Arial;
 }
 /* topo */
@@ -63,7 +63,16 @@ body{
 .botoes_tamanho{
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 
+}
+.botao_tamanho{
+    width: 25%;
+    height: 55px;
+    border-radius: 15px;
+    border: 1px solid;
+    background-color: white;
+    font-size: 20px;
 }
 /* cards opcoes*/
 /* interruptor */
