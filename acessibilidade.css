@@ -57,8 +57,14 @@ body{
     background-color: white;
     border-radius: 20px;
     padding: 20px;
+    margin-bottom: 20px;
 }
 /* botoes*/
+.botoes_tamanho{
+    display: flex;
+    justify-content: space-between;
+
+}
 /* cards opcoes*/
 /* interruptor */
 /* bola interruptor*/
