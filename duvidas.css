@@ -22,11 +22,12 @@ body{
 .caixaconteudo{
     width: 62%;
     margin:auto;
+    margin-top:40px;
 }
 .conteudotexto{
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    margin-bottom: 20px;
 }
 /*simbolo robo cont*/
 /*botoes sugestoes*/
