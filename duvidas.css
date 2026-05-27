@@ -11,6 +11,10 @@ body{
     height:80px;
     background-color: white;
     border-bottom: 1px solid #d1d5db;
+    display: flex;
+    gap: 15px;
+    justify-content:left;
+    align-items: center;
 }
 
 /*simbolo robo topo*/
