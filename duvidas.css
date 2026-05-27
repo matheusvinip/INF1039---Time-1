@@ -19,6 +19,15 @@ body{
 
 /*simbolo robo topo*/
 /*conteudo*/
+.caixaconteudo{
+    width: 62%;
+    margin:auto;
+}
+.conteudotexto{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
 /*simbolo robo cont*/
 /*botoes sugestoes*/
 /*barra de digitacao*/
