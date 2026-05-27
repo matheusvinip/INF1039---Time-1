@@ -10,6 +10,7 @@ body{
     width:100%;
     height:80px;
     background-color: white;
+    border-bottom: 1px solid #d1d5db;
 }
 
 /*simbolo robo topo*/
