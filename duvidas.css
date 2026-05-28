@@ -18,15 +18,15 @@ body{
     padding-left: 40px;
 }
 
-
-/*conteudo*/
-.caixaconteudo{
-    width: 62%;
-    margin:auto;
-    margin-top:120px;
-    text-align: center;
+.topo i{
+    color:#dcdfe5;
 }
-/*simbolo robo topo*/
+
+.topo h2{
+    color:black;
+}
+
+/*simbolo robo*/
 .robo{
     width: 80px;
     height: 80px;
@@ -41,11 +41,22 @@ body{
     font-size: 40px;
     color: #2461db1a;
 }
-.conteudotexto{
-    display: flex;
-    align-items: center;
+/*conteudo*/
+.caixaconteudo{
+    width: 62%;
+    margin:auto;
+    margin-top:120px;
+    text-align: center;
+}
+.conteudotexto h2{
+    color:black;
     margin-bottom: 20px;
 }
-/*simbolo robo cont*/
+.conteudotexto p{
+    color:black;
+    margin-bottom: 40px;
+}
+
 /*botoes sugestoes*/
 /*barra de digitacao*/
+/*botao enviar mensagem*/
