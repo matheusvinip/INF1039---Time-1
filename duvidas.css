@@ -73,4 +73,11 @@ body{
     font-size: 20px;
 }
 /*barra de digitacao*/
+.barracaixa{
+    width: 100%;
+    background-color: white;
+    border-top: 1px solid #d1d5db;
+    padding-top: 20px;
+    
+}
 /*botao enviar mensagem*/
