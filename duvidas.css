@@ -92,8 +92,12 @@ body{
 .textoinput{
     width: 100%;
     height: 60px;
-    background-color: #585a5c;
+    background-color: #ecf0f4;
     border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    color: #8e8f93;
 }
 /*botao enviar mensagem*/
 .botaoenvia{
