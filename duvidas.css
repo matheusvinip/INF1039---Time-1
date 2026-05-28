@@ -39,7 +39,7 @@ body{
 }
 .robo i{
     font-size: 40px;
-    color: #0055ff1a;
+    color: #0055ff;
 }
 /*conteudo*/
 .caixaconteudo{
@@ -66,7 +66,7 @@ body{
 .botoes button{
     height: 60px;
     padding-left: 30px;
-    padding-right: 20px;
+    padding-right: 30px;
     border-radius:30px;
     border:1px solid #d1d5db;
     background-color: white;
@@ -79,6 +79,8 @@ body{
     border-top: 1px solid #d1d5db;
     padding-top: 20px;
     padding-bottom: 20px;
+    position: fixed;
+    bottom: 0;
 }
 .barrainput{
     width: 50%;
@@ -97,7 +99,7 @@ body{
     border-radius: 20px;
     background-color: #2461db1a;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
 }
 .botaoenvia i{
