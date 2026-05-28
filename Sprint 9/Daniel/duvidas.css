@@ -1,0 +1,114 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:#f3f4f6;
+    font-family: Arial;
+}
+
+/*topo*/
+.topo{
+    width:100%;
+    height:80px;
+    background-color: white;
+    border-bottom: 1px solid #d1d5db;
+    display: flex;
+    gap: 15px;
+    justify-content:left;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.topo i{
+    color:#dcdfe5;
+}
+
+.topo h2{
+    color:black;
+}
+
+/*simbolo robo*/
+.robo{
+    width: 80px;
+    height: 80px;
+    background-color: #dcdfe5;
+    border-radius: 25px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.robo i{
+    font-size: 40px;
+    color: #0055ff;
+}
+/*conteudo*/
+.caixaconteudo{
+    width: 62%;
+    margin:auto;
+    margin-top:120px;
+    text-align: center;
+}
+.conteudotexto h2{
+    color:black;
+    margin-bottom: 20px;
+}
+.conteudotexto p{
+    color:#979aa0;
+    margin-bottom: 40px;
+}
+
+/*botoes sugestoes*/
+.botoes{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+}
+.botoes button{
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius:30px;
+    border:1px solid #d1d5db;
+    background-color: white;
+    font-size: 20px;
+}
+/*barra de digitacao*/
+.barracaixa{
+    width: 100%;
+    background-color: white;
+    border-top: 1px solid #d1d5db;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    bottom: 0;
+}
+.barrainput{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.textoinput{
+    width: 100%;
+    height: 60px;
+    background-color: #ecf0f4;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    color: #8e8f93;
+}
+/*botao enviar mensagem*/
+.botaoenvia{
+    width:60px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #2461db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botaoenvia i{
+    color: white;
+}
