@@ -58,5 +58,19 @@ body{
 }
 
 /*botoes sugestoes*/
+.botoes{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+}
+.botoes button{
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 20px;
+    border-radius:30px;
+    border:1px solid #d1d5db;
+    background-color: white;
+    font-size: 20px;
+}
 /*barra de digitacao*/
 /*botao enviar mensagem*/
